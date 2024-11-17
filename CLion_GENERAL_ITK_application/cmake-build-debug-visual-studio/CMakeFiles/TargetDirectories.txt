@@ -1,0 +1,3 @@
+C:/Users/Administrator/CLionProjects/GENERAL_ITK_application/cmake-build-debug-visual-studio/CMakeFiles/GENERAL_ITK_application.dir
+C:/Users/Administrator/CLionProjects/GENERAL_ITK_application/cmake-build-debug-visual-studio/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/CLionProjects/GENERAL_ITK_application/cmake-build-debug-visual-studio/CMakeFiles/ZERO_CHECK.dir

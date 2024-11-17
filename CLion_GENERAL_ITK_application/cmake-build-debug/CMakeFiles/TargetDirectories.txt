@@ -1,0 +1,3 @@
+C:/Users/Administrator/CLionProjects/GENERAL_ITK_application/cmake-build-debug/CMakeFiles/GENERAL_ITK_application.dir
+C:/Users/Administrator/CLionProjects/GENERAL_ITK_application/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/CLionProjects/GENERAL_ITK_application/cmake-build-debug/CMakeFiles/rebuild_cache.dir

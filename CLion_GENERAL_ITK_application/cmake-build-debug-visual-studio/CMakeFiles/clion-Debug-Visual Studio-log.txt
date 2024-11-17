@@ -1,0 +1,21 @@
+C:\CLion2024.2.3\bin\cmake\win\x64\bin\cmake.exe -G "Visual Studio 17 2022" -S C:\Users\Administrator\CLionProjects\GENERAL_ITK_application -B C:\Users\Administrator\CLionProjects\GENERAL_ITK_application\cmake-build-debug-visual-studio
+-- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.14393.
+-- The C compiler identification is MSVC 19.42.34433.0
+-- The CXX compiler identification is MSVC 19.42.34433.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (3.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/Administrator/CLionProjects/GENERAL_ITK_application/cmake-build-debug-visual-studio
+
+Cannot get compiler information:
+	Cannot load Visual C++ environment from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvarsall.bat:
+	command [C:\Windows\system32\cmd.exe, /c, "call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" amd64 -vcvars_ver=14.42.34433 1>&2 && C:\CLion2024.2.3\jbr\bin\java -cp C:\CLion2024.2.3\lib\util_rt.jar com.intellij.util.ReadEnv > "C:\Users\ADMINI~1\AppData\Local\Temp\1\intellij-cmd-env-data.6822721543111389892.tmp" || exit /B %ERRORLEVEL%"], exit code: 0

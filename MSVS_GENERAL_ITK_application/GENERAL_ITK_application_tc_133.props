@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<_ProjectFileVersion>18.48.2024</_ProjectFileVersion>
+		<_PropertySheetDisplayName>GENERAL_ITK_application_tc133</_PropertySheetDisplayName>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<Link>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<AdditionalLibraryDirectories>C:\Siemens\Teamcenter13\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+		</Link>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<Link>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<AdditionalLibraryDirectories>C:\Siemens\Teamcenter13\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+		</Link>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<AdditionalIncludeDirectories>C:\Siemens\Teamcenter13\include;C:\Siemens\Teamcenter13\include_cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>NT40;POMDLL;CRTAPI1=_cdecl;CRTAPI2=cdecl;_WIN32;WIN64;WIN32_LEAN_AND_MEAN;WNT;BYPASS_FLEX;_INTEL=1;IPLIB=none;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+		</ClCompile>
+		<Link>
+			<AdditionalOptions>/ignore:4099 /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalDependencies>itk_main.obj;libsyss.lib;libpom.lib;libtcsso.lib;libae.lib;libappr.lib;libarchive.lib;libbackup.lib;libbom.lib;libcfm.lib;libconstants.lib;libcxpom.lib;libdmi.lib;libecm.lib;libeint.lib;libepm.lib;libfclasses.lib;libform.lib;libgms.lib;libgrm.lib;libtcinit.lib;libtc.lib;libtccore.lib;libtctrushape.lib;libinternal_exits.lib;libvalidation.lib;libitk.lib;liblov.lib;libme.lib;libmgc.lib;libobjio.lib;libpie.lib;libai.lib;libproperty.lib;libps.lib;libpublication.lib;libqry.lib;libclips.lib;libclipsutil.lib;librbf.lib;libce.lib;libres.lib;libsa.lib;libss.lib;libstep.lib;libsub_mgr.lib;libtextsrv.lib;libtie.lib;libnxmgr_im.lib;libaie.lib;libics.lib;libeintstub.lib;libsml.lib;libuser_exits.lib;librdv.lib;libcollabctx.lib;libmechatronics.lib;libtccoreext.lib;libusagewc.lib;libusage.lib;libcontmgmt.lib;libtc_utils.lib;libschmgt.lib;libschmgt_bridge.lib;libdocmgt.lib;libdocmgtapp.lib;libvm.lib;libadsfoundationdispatch.lib;libcm.lib;libcmdispatch.lib;libconstants.lib;libbase_utils.lib;libmld.lib;libfunctionality.lib;libmfg.lib;libmfgbvr.lib;libnls.lib;libcondvalidation.lib;libbooleanmath.lib;libconfigurator.lib;libfnd0booleansolve.lib;libsecore.lib;libFnd0formulamgmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			<AdditionalLibraryDirectories>C:\Siemens\Teamcenter13\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<DelayLoadDLLs>libtcsso.dll;libict.dll;libae.dll;libappr.dll;libarchive.dll;libbackup.dll;libbom.dll;libcfm.dll;libdmi.dll;libecm.dll;libeint.dll;libepm.dll;libform.dll;libgrm.dll;libtccore.dll;libtctrushape.dll;libinternal_exits.dll;libitk.dll;libvalidation.dll;liblov.dll;libme.dll;libmechatronics.dll;libmgc.dll;libobjio.dll;libproperty.dll;libps.dll;libpublication.dll;libqry.dll;libres.dll;libstep.dll;libsub_mgr.dll;libtccoreext.dll;libnxmgr_im.dll;libpie.dll;libai.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+			<SubSystem>Console</SubSystem>
+			<TargetMachine>MachineX64</TargetMachine>
+		</Link>
+  </ItemDefinitionGroup>
+</Project>
